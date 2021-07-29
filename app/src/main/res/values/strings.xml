@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pst8Lab</string>
+    <string name="Página_Web">PAGINA WEB</string>
+    <string name="Inicio">INICIO</string>
+    <string name="Menu">MENU PRINCIPAL</string>
+    <string name="Url">INGRESE UNA URL</string>
+    <string name="Buscar">Buscar</string>
+    <string name="Volver">Volver</string>
+    <string name="Saludo">Bienvenido</string>
+</resources>
