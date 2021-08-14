@@ -1,10 +1,11 @@
 package com.example.pst8lab;
 import android.content.Context;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 
+import android.database.sqlite.SQLiteDatabase;
+
+import android.database.sqlite.SQLiteOpenHelper;
+import androidx.annotation. Nullable;
 public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
-    public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
         public AdminSQLiteOpenHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
             super(context, name, factory, version);
         }
@@ -17,7 +18,7 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
         @Override
         public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         }
-    }
-
-
 }
+
+
+

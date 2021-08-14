@@ -1,7 +1,5 @@
 package com.example.pst8lab;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -17,16 +15,24 @@ public class InicioActivity extends AppCompatActivity {
         Intent intent = new Intent(this, InicioSesion.class);;
         startActivity(intent);
     }
-    public void buscarWeb(View v){
-        Intent intent = new Intent(this, webViewActivity.class);;
-        startActivity(intent);
-    }
     public void buscarCorreo(View v){
         Intent intent = new Intent(this, Correo.class);;
         startActivity(intent);
     }
+    public void buscarWeb(View v){
+        Intent intent = new Intent(this, webViewActivity.class);;
+        startActivity(intent);
+    }
+    public void baseDatos(View v){
+        Intent intent = new Intent(this, ActivityBD.class);;
+        startActivity(intent);
+    }
     public void acercaDe(View v){
         Intent intent = new Intent(this, AcercaDe.class);;
+        startActivity(intent);
+    }
+    public void bdremota(View v){
+        Intent intent = new Intent(this, BDremota.class);;
         startActivity(intent);
     }
 }
